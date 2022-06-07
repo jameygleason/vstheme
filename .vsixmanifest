@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Language="en-US" Id="vstheme" Version="2.0.1" Publisher="jameygleason"/>
-    <DisplayName>Night Owl</DisplayName>
+    <DisplayName>VSTheme</DisplayName>
     <Description xml:space="preserve">A VS Code theme for the night owls out there. Now introducing Light Owl theme for daytime usage. Decisions were based on meaningful contrast for reading comprehension and for optimal razzle dazzle. ✨</Description>
     <Tags>Theme,Dark Theme,Light Theme,Night Owl,Night Theme,Light Owl,Snow Owl,Early Bird,Accessible Theme,theme,color-theme,__web_extension</Tags>
     <Categories>Themes</Categories>
