@@ -1,11 +1,10 @@
 {
   "name": "vstheme",
   "version": "0.1.0",
-  "main": "index.js",
   "author": "",
   "displayName": "vstheme",
   "description": "A VS Code theme for the night owls out there. Now introducing Light Owl theme for daytime usage. Decisions were based on meaningful contrast for reading comprehension and for optimal razzle dazzle. ✨",
-  "publisher": "jameygleason",
+  "publisher": "jamesgleason",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
@@ -28,7 +27,7 @@
   ],
   "scripts": {
     "publish": "vsce publish",
-    "push":"sh ./push.sh"
+    "push": "sh ./push.sh"
   },
   "galleryBanner": {
     "color": "#061526",
@@ -64,5 +63,22 @@
         "path": "./themes/VSTheme-Light-color-theme-noitalic.json"
       }
     ]
+  },
+  "dependencies": {
+    "vsce": "^2.9.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.3"
   }
 }
