@@ -23,7 +23,7 @@
       
       
       
-      <Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#061526" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#000214" />
       <Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
       <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
       
