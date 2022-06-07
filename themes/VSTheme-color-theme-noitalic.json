@@ -116,7 +116,7 @@
     "editorGutter.addedBackground": "#9CCC65",
     "editorGutter.deletedBackground": "#EF5350",
     "diffEditor.insertedTextBackground": "#99b76d23",
-    "diffEditor.insertedTextBorder": "#c5e47833",
+    "diffEditor.insertedTextBorder": "#87e4d433",
     "diffEditor.removedTextBackground": "#ef535033",
     "diffEditor.removedTextBorder": "#ef53504d",
     "editorWidget.background": "#021320",
@@ -193,7 +193,7 @@
     "terminal.ansiGreen": "#22da6e",
     "terminal.ansiMagenta": "#C792EA",
     "terminal.ansiRed": "#EF5350",
-    "terminal.ansiYellow": "#c5e478",
+    "terminal.ansiYellow": "#DFD9A6",
     "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightBlack": "#575656",
     "terminal.ansiBrightBlue": "#82AAFF",
@@ -242,7 +242,7 @@
       "name": "Inserted",
       "scope": "markup.inserted.diff",
       "settings": {
-        "foreground": "#c5e478ff"
+        "foreground": "#87e4d4ff"
       }
     },
     {
@@ -278,7 +278,7 @@
       "name": "Support Constant Math",
       "scope": "support.constant.math",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -332,7 +332,7 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -383,7 +383,7 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -425,14 +425,14 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "fontStyle": "",
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
       "name": "Entity Name Tag Custom",
       "scope": "entity.name.tag.custom",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -453,14 +453,14 @@
       "name": "Library class/type",
       "scope": ["support.type", "support.class"],
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
       "name": "Support Variable DOM",
       "scope": "support.variable.dom",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -779,7 +779,7 @@
       "name": "Support Function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -899,7 +899,7 @@
       "name": "Bold",
       "scope": "bold",
       "settings": {
-        "foreground": "#c5e478",
+        "foreground": "#87e4d4",
         "fontStyle": "bold"
       }
     },
@@ -990,7 +990,7 @@
       "name": "C# Enum",
       "scope": "entity.name.type.enum.cs",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -1066,7 +1066,7 @@
       "name": "Elixir Functions",
       "scope": "source.elixir entity.name.function",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -1083,7 +1083,7 @@
       "name": "Elixir String Punctuations",
       "scope": "source.elixir punctuation.definition.string",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -1093,7 +1093,7 @@
         "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
       ],
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -1112,13 +1112,6 @@
       }
     },
     {
-      "name": "Go Function Calls",
-      "scope": "source.go meta.function-call.go",
-      "settings": {
-        "foreground": "#DDDDDD"
-      }
-    },
-    {
       "name": "Go Keywords",
       "scope": [
         "source.go keyword.package.go",
@@ -1134,7 +1127,21 @@
         "source.go keyword.control.go"
       ],
       "settings": {
-        "foreground": "#c792ea"
+        "foreground": "#CC9DF1"
+      }
+    },
+    {
+      "name": "Go Function Name",
+      "scope": "source.go entity.name.function.go",
+      "settings": {
+        "foreground": "#8EC1F1"
+      }
+    },
+    {
+      "name": "Go Function Calls",
+      "scope": "source.go support.function.go",
+      "settings": {
+        "foreground": "#99E6D9"
       }
     },
     {
@@ -1145,6 +1152,15 @@
       ],
       "settings": {
         "foreground": "#ff5874"
+      }
+    },
+    {
+      "name": "Go Quoted Strings",
+      "scope": [
+        "string.quoted.double.go"
+      ],
+      "settings": {
+        "foreground": "#D9AD77"
       }
     },
     {
@@ -1203,7 +1219,7 @@
       "name": "ID Attribute Name in HTML",
       "scope": "entity.other.attribute-name.id.html",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -1330,7 +1346,7 @@
       "name": "JSON Support Constants",
       "scope": "support.constant.json",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -1352,6 +1368,13 @@
       "scope": "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
       "settings": {
         "foreground": "#ff5874"
+      }
+    },
+    {
+      "name": "JSON array bracket",
+      "scope": "source.json punctuation.definition.array",
+      "settings": {
+        "foreground": "#D9AD77"
       }
     },
     {
@@ -1426,7 +1449,7 @@
       "name": "Markdown Bold",
       "scope": "markup.bold.markdown",
       "settings": {
-        "foreground": "#c5e478",
+        "foreground": "#87e4d4",
         "fontStyle": "bold"
       }
     },
@@ -1495,7 +1518,7 @@
       "name": "Markdown Inline Raw String",
       "scope": "markup.inline.raw.string.markdown",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -1523,14 +1546,14 @@
       "name": "PHP Global Variables",
       "scope": "variable.other.global.php",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
       "name": "Declaration Punctuation in PHP Global Variables",
       "scope": "variable.other.global.php punctuation.definition.variable",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -1571,7 +1594,7 @@
       "name": "Decorator Functions in Python",
       "scope": "entity.name.function.decorator.python",
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {
@@ -1597,7 +1620,7 @@
         "variable.parameter.url.sass"
       ],
       "settings": {
-        "foreground": "#c5e478"
+        "foreground": "#87e4d4"
       }
     },
     {

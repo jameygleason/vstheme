@@ -8,3 +8,7 @@ func main() {
 	sp := Spoop{}
 	fmt.Println("Hello")
 }
+
+func Parse() {
+	err:= json.Marshal("{hi:true}")
+}
