@@ -7,8 +7,9 @@ type Spoop struct {
 func main() {
 	sp := Spoop{}
 	fmt.Println("Hello")
+	parse(args)
 }
 
 func Parse() {
-	err:= json.Marshal("{hi:true}")
+	err := json.Marshal("{hi:true}")
 }
